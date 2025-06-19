@@ -1,12 +1,14 @@
-# Exploración del Universo
+# Bienvenido a la Guía de Next.js
 
- "¿Sabías que...?"
-    Se estima que existen más de **100 mil millones de galaxias** en el universo observable.
+!!! tip "¿Qué es Next.js?"
+    Next.js es un framework de React para la construcción de aplicaciones web modernas, optimizadas y escalables, con soporte para SSR y SSG.
 
-## Comparativa de cuerpos celestes
+## Comparativa de Frameworks
 
-| Cuerpo celeste | Tipo           | Diámetro (km) | Distancia a la Tierra |
-|----------------|----------------|---------------|------------------------|
-| Tierra         | Planeta rocoso | 12,742        | 0 km                   |
-| Sol            | Estrella       | 1,391,000     | 149.6 millones km      |
-| Andrómeda      | Galaxia espiral| 220,000       | 2.5 millones de años luz |
+| Framework | Lenguaje base | SSR | SSG | Routing automático |
+|-----------|----------------|-----|-----|--------------------|
+| React     | JavaScript     | ❌  | ❌  | ❌                 |
+| Next.js   | JavaScript     | ✅  | ✅  | ✅                 |
+| Gatsby    | JavaScript     | ❌  | ✅  | ✅                 |
+
+📎 Aprende a instalarlo en la [sección de instalación](guia/instalacion.md).

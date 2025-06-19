@@ -1,29 +1,17 @@
-site_name: Universe Docs
+site_name: Guía de Next.js
 theme:
   name: material
-  language: es
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: teal
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: lime
-
-markdown_extensions:
-  - admonition
-  - codehilite
-  - toc:
-      permalink: true
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
 
 nav:
   - Inicio: index.md
   - Guía:
       - Instalación: guia/instalacion.md
       - Uso: guia/uso.md
+      - Optimización: guia/optimizacion.md
   - Acerca: about.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
